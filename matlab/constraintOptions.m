@@ -27,6 +27,13 @@ switch type
   options.class = [];
   options.dim = [];
   options.reg = 1;
+ case 'LDANeg'
+  options.type = type;
+  options.lambda = 1;
+  options.unknown = -1;
+  options.class = [];
+  options.dim = [];
+  options.reg = 1;
  otherwise
   error('Unknown constraint');
 end

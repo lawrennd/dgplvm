@@ -1,10 +1,11 @@
-function gX = constraintLogLikeGradientsLDAPos(model)
+function gX = constraintLogLikeGradientsLDANeg(model)
 
-% CONSTRAINTLOGLIKELIHOODLDAPOS Returns loglikegradients for LDAPos constraint
+% CONSTRAINTLOGLIKEGRADIENTSLDA Returns gradients of loglikelihood
+% for LDA constraints
 % FORMAT
-% DESC Returns loglikegradients for LDAPos constraint
+% DESC Returns loglikelihood for LDAPos constraint
 % ARG model : fgplvm model
-% RETURN options : Returns loglikegradients
+% RETURN options : Returns loglikelihood
 %
 % SEEALSO : constraintLogLikelihood
 %
@@ -25,10 +26,10 @@ for(i = 1:1:length(model.dim))
       dSw_dX = dOx_dX*model.W*model.Ox';
       dSb_dX = dOx_dX*model.B*model.Ox';
       
-      temp = dSw_dX;
+      temp = -(dSb_dX*model.A);
       gX(model.indices{j}(k),model.dim(i)) = ...
           gX(model.indices{j}(k),model.dim(i)) - model.lambda * ...
-          trace((2./model.N)*temp);
+          trace((2./model.N)*model.S_b_inv*temp);
       N_acum = N_acum+1;
     end
   end

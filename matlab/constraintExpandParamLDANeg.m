@@ -1,4 +1,4 @@
-function model = constraintExpandParamLDAPos(model,X)
+function model = constraintExpandParamLDANeg(model,X)
 
 % CONSTRAINTEXPANDPARAMLDA Expands a LDA constraint model
 % FORMAT
@@ -49,7 +49,7 @@ if(isfield(model,'reg')&&~isempty(model.reg))
 else
   S_b_inv = inv(S_b);
 end
-A = S_w;
+A = S_b_inv;
 
 model.A = A;
 model.S_w = S_w;
