@@ -31,7 +31,7 @@ for(i = 1:1:model.numClass)
 end
 
 
-if(isfield(options,'dim'))
+if(isfield(options,'dim')&&~isempty(options.dim))
   model.dim = options.dim;
 else
   warning('Active dimensions for constraint not set');

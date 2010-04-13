@@ -10,9 +10,12 @@ function model = constraintCreate(model,void,options)
 %
 % SEEALSO : constraintOptions
 %
-% COPYRIGHT : Carl Henrik Ek, 2009
+% COPYRIGHT : Carl Henrik Ek, 2009, 2010
 
 % SGPLVM
+
+options.q = model.q;
+options.N = model.N;
 
 fhandle = str2func(['constraintCreate' options.type]);
 if(isfield(model.constraints,'numConstraints')&&model.constraints.numConstraints>0)

@@ -2,7 +2,7 @@ function ll = constraintLogLikelihood(model,X)
 
 % CONSTRAINTLOGLIKELIHOOD Wrapper for Constraint loglikelihood
 % FORMAT
-% DESC Returns loglikelihood for LDAPos constraint
+% DESC Returns loglikelihood for constraint
 % ARG model : fgplvm model
 % ARG X : Latent locations
 % RETURN options : Returns loglikelihood
