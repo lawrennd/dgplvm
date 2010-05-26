@@ -13,6 +13,6 @@ function ll = constraintLogLikelihoodLDAPos(model,X);
 
 % DGPLVM
 
-ll = model.lambda*trace(model.A);
+ll = -model.lambda*trace(model.A);
 
 return

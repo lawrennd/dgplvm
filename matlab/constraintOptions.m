@@ -34,6 +34,16 @@ switch type
   options.class = [];
   options.dim = [];
   options.reg = 1;
+ case 'LLE'
+  options.type = type;
+  options.lambda = 1;
+  options.nn = 7;
+  options.tol = 1e-3;
+ case 'CorrespondenceSequenceLDA'
+  options.type = type;
+  options.lambda = 1;
+  options.class = [];
+  options.dim = [];
  otherwise
   error('Unknown constraint');
 end

@@ -1,4 +1,4 @@
-function model = constraintCreate(model,void,options)
+function model = constraintCreate(model,void,options,varargin)
 
 % CONSTRAINTCREATE Creates a constraint model from a options struct
 % FORMAT
@@ -19,9 +19,9 @@ options.N = model.N;
 
 fhandle = str2func(['constraintCreate' options.type]);
 if(isfield(model.constraints,'numConstraints')&&model.constraints.numConstraints>0)
-  model.constraints.comp{model.constraints.numConstraints+1} = fhandle(options);
+  model.constraints.comp{model.constraints.numConstraints+1} = fhandle(options,varargin{:});
 else
-  model.constraints.comp{1} = fhandle(options);
+  model.constraints.comp{1} = fhandle(options,varargin{:});
 end
 
 return
