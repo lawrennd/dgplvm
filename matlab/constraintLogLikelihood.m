@@ -5,7 +5,7 @@ function ll = constraintLogLikelihood(model,X)
 % DESC Returns loglikelihood for constraint
 % ARG model : fgplvm model
 % ARG X : Latent locations
-% RETURN options : Returns loglikelihood
+% RETURN ll : Returns loglikelihood
 %
 % SEEALSO :
 %

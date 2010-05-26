@@ -5,7 +5,7 @@ function ll = constraintLogLikelihoodLDAPos(model,X);
 % DESC Returns loglikelihood for LDAPos constraint
 % ARG model : fgplvm model
 % ARG X : Latent locations
-% RETURN options : Returns loglikelihood
+% RETURN ll : Returns loglikelihood
 %
 % SEEALSO : constraintLogLikelihood
 %

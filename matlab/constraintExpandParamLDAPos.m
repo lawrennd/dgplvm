@@ -1,6 +1,6 @@
 function model = constraintExpandParamLDAPos(model,X)
 
-% CONSTRAINTEXPANDPARAMLDA Expands a LDA constraint model
+% CONSTRAINTEXPANDPARAMLDAPOS Expands a LDAPOS constraint model
 % FORMAT
 % DESC Returns expanded model
 % ARG model : constraint model

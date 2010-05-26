@@ -12,7 +12,7 @@ function model = constraintCreate(model,void,options,varargin)
 %
 % COPYRIGHT : Carl Henrik Ek, 2009, 2010
 
-% SGPLVM
+% DGPLVM
 
 options.q = model.q;
 options.N = model.N;

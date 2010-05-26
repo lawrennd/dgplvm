@@ -1,5 +1,18 @@
 function model = constraintCreateLDAPos(options)
 
+% CONSTRAINTCREATELDAPOS Creates a LDAPOS constraint model from a options struct
+% FORMAT
+% DESC Creates a LDAPOS constraint model from a options struct
+% ARG options : options structure as returned by constraintOptions
+% RETURN model : the model created
+%
+% SEEALSO : constraintOptions
+%
+% COPYRIGHT : Carl Henrik Ek, 2009, 2010
+
+% DGPLVM
+
+
 model = {};
 model.type = options.type;
 

@@ -1,6 +1,6 @@
 function model = constraintExpandParamLDANeg(model,X)
 
-% CONSTRAINTEXPANDPARAMLDA Expands a LDA constraint model
+% CONSTRAINTEXPANDPARAMLDANEG Expands a LDANEG constraint model
 % FORMAT
 % DESC Returns expanded model
 % ARG model : constraint model
@@ -9,7 +9,7 @@ function model = constraintExpandParamLDANeg(model,X)
 %
 % SEEALSO : constraintExpandParam
 %
-% COPYRIGHT : Carl Henrik Ek, 2009
+% COPYRIGHT : Carl Henrik Ek, 2009, 2010
 
 % DGPLVM
 
