@@ -1,0 +1,15 @@
+<head>
+<title>Discriminative Gaussian Process Latent Variable Models - MATLAB Software</title>
+</head>
+
+<body><div class="section">
+
+<h1>Discriminative GP-LVM Software</h1>
+
+<p>This page will describe examples of how to use the Gaussian process latent variable models with constrained latent spaces (DGPLVM).
+
+RELEASEINFORMATION
+
+<h2>Release Notes</h2>
+
+First release of software.
