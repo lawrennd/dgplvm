@@ -1,6 +1,6 @@
 function ll = constraintLogLikelihoodLDANeg(model,X)
 
-% CONSTRAINTLOGLIKELIHOODNEG Constraint loglikelihood LDA Neg model
+% CONSTRAINTLOGLIKELIHOODLDANEG Constraint loglikelihood LDA Neg model
 % FORMAT
 % DESC Returns loglikelihood for constraint
 % ARG model : fgplvm or sgplvm model

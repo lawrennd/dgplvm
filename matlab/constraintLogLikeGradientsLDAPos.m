@@ -1,6 +1,6 @@
 function gX = constraintLogLikeGradientsLDAPos(model)
 
-% CONSTRAINTLOGLIKELIHOODLDAPOS Returns loglikegradients for LDAPos constraint
+% CONSTRAINTLOGLIKEGRADIENTSLDAPOS Returns loglikegradients for LDAPos constraint
 % FORMAT
 % DESC Returns loglikegradients for LDAPos constraint
 % ARG model : fgplvm model

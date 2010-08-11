@@ -1,6 +1,6 @@
 function gX = constraintLogLikeGradientsLDANeg(model)
 
-% CONSTRAINTLOGLIKEGRADIENTSLDA Returns gradients of loglikelihood
+% CONSTRAINTLOGLIKEGRADIENTSLDANEG Returns gradients of loglikelihood
 % for LDA constraints
 % FORMAT
 % DESC Returns loglikelihood for LDAPos constraint
