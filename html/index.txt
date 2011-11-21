@@ -10,6 +10,8 @@
 
 RELEASEINFORMATION
 
-<h2>Release Notes</h2>
+Re-release without changes to software but to conform to software release standards.
+
+<h2>Version 0.05</h2>
 
 First release of software.
