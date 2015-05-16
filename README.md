@@ -1,0 +1,2 @@
+# dgplvm
+Discriminative GP-LVM.
