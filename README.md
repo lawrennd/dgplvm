@@ -10,8 +10,8 @@ Release Information
 
 As well as downloading the DGPLVM software you need to obtain the toolboxes specified below. **These can be downloaded using the *same* password you get from registering for the DGPLVM software.**
 
-|-----------------------------------------------|-------------|
 | **Toolbox**                                   | **Version** |
+|-----------------------------------------------|-------------|
 | [NETLAB](/netlab/downloadFiles/vrs3p3)        | 3.3         |
 | [PRIOR](/prior/downloadFiles/vrs0p22)         | 0.22        |
 | [OPTIMI](/optimi/downloadFiles/vrs0p132)      | 0.132       |
